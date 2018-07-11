@@ -1,0 +1,51 @@
+<suite name="Substraction Test">
+
+    <test name="Substract 1 to 1">
+
+        <parameter name="a" value="1"/>
+
+        <parameter name="b" value="1"/>
+
+        <parameter name="res" value="0"/>
+
+        <classes>
+
+            <class name="scenarios.SoustractionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Substract 1 to 2">
+
+        <parameter name="a" value="2"/>
+
+        <parameter name="b" value="1"/>
+
+        <parameter name="res" value="1"/>
+
+        <classes>
+
+            <class name="scenarios.SoustractionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Substract 2 to 3">
+
+        <parameter name="a" value="2"/>
+
+        <parameter name="b" value="3"/>
+
+        <parameter name="res" value="1"/>
+
+        <classes>
+
+            <class name="scenarios.SoustractionTest" />
+
+        </classes>
+
+    </test>
+
+</suite>

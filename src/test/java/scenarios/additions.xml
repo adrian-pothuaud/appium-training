@@ -1,0 +1,51 @@
+<suite name="Addition Test">
+
+    <test name="Add 1 and 1">
+
+        <parameter name="a" value="1"/>
+
+        <parameter name="b" value="1"/>
+
+        <parameter name="res" value="2"/>
+
+        <classes>
+
+            <class name="scenarios.AdditionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Add 1 and 2">
+
+        <parameter name="a" value="1"/>
+
+        <parameter name="b" value="2"/>
+
+        <parameter name="res" value="3"/>
+
+        <classes>
+
+            <class name="scenarios.AdditionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Add 3 and 2">
+
+        <parameter name="a" value="3"/>
+
+        <parameter name="b" value="2"/>
+
+        <parameter name="res" value="5"/>
+
+        <classes>
+
+            <class name="scenarios.AdditionTest" />
+
+        </classes>
+
+    </test>
+
+</suite>

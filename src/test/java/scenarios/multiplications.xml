@@ -1,0 +1,51 @@
+<suite name="Multiplication Test">
+
+    <test name="Multiply 1 by 1">
+
+        <parameter name="a" value="1"/>
+
+        <parameter name="b" value="1"/>
+
+        <parameter name="res" value="1"/>
+
+        <classes>
+
+            <class name="scenarios.MultiplicationTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Multiply 1 by 2">
+
+        <parameter name="a" value="1"/>
+
+        <parameter name="b" value="2"/>
+
+        <parameter name="res" value="2"/>
+
+        <classes>
+
+            <class name="scenarios.MultiplicationTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Multiply 3 by 2">
+
+        <parameter name="a" value="3"/>
+
+        <parameter name="b" value="2"/>
+
+        <parameter name="res" value="6"/>
+
+        <classes>
+
+            <class name="scenarios.MultiplicationTest" />
+
+        </classes>
+
+    </test>
+
+</suite>

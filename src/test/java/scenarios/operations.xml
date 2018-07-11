@@ -1,0 +1,195 @@
+<suite name="Calculator Tests">
+
+    <test name="Add 1 and 1">
+
+        <parameter name="a" value="1"/>
+
+        <parameter name="b" value="1"/>
+
+        <parameter name="res" value="2"/>
+
+        <classes>
+
+            <class name="scenarios.AdditionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Add 1 and 2">
+
+        <parameter name="a" value="1"/>
+
+        <parameter name="b" value="2"/>
+
+        <parameter name="res" value="3"/>
+
+        <classes>
+
+            <class name="scenarios.AdditionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Add 3 and 2">
+
+        <parameter name="a" value="3"/>
+
+        <parameter name="b" value="2"/>
+
+        <parameter name="res" value="5"/>
+
+        <classes>
+
+            <class name="scenarios.AdditionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Substract 1 to 1">
+
+        <parameter name="a" value="1"/>
+
+        <parameter name="b" value="1"/>
+
+        <parameter name="res" value="0"/>
+
+        <classes>
+
+            <class name="scenarios.SoustractionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Substract 1 to 2">
+
+        <parameter name="a" value="2"/>
+
+        <parameter name="b" value="1"/>
+
+        <parameter name="res" value="1"/>
+
+        <classes>
+
+            <class name="scenarios.SoustractionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Substract 2 to 3">
+
+        <parameter name="a" value="2"/>
+
+        <parameter name="b" value="3"/>
+
+        <parameter name="res" value="1"/>
+
+        <classes>
+
+            <class name="scenarios.SoustractionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Multiply 1 by 1">
+
+        <parameter name="a" value="1"/>
+
+        <parameter name="b" value="1"/>
+
+        <parameter name="res" value="1"/>
+
+        <classes>
+
+            <class name="scenarios.MultiplicationTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Multiply 1 by 2">
+
+        <parameter name="a" value="1"/>
+
+        <parameter name="b" value="2"/>
+
+        <parameter name="res" value="2"/>
+
+        <classes>
+
+            <class name="scenarios.MultiplicationTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Multiply 3 by 2">
+
+        <parameter name="a" value="3"/>
+
+        <parameter name="b" value="2"/>
+
+        <parameter name="res" value="6"/>
+
+        <classes>
+
+            <class name="scenarios.MultiplicationTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Divide 1 by 1">
+
+        <parameter name="a" value="1"/>
+
+        <parameter name="b" value="1"/>
+
+        <parameter name="res" value="1"/>
+
+        <classes>
+
+            <class name="scenarios.DivisionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Divide 4 by 2">
+
+        <parameter name="a" value="4"/>
+
+        <parameter name="b" value="2"/>
+
+        <parameter name="res" value="2"/>
+
+        <classes>
+
+            <class name="scenarios.DivisionTest" />
+
+        </classes>
+
+    </test>
+
+    <test name="Divide 6 by 2">
+
+        <parameter name="a" value="6"/>
+
+        <parameter name="b" value="2"/>
+
+        <parameter name="res" value="3"/>
+
+        <classes>
+
+            <class name="scenarios.DivisionTest" />
+
+        </classes>
+
+    </test>
+
+</suite>
